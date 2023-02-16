@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <h1>CRUD</h1>
+    <section>
+      <h2>CREATE => Verb POST</h2>
+      <form class="form" id="create">
+        <input type="text" placeholder="name" name="name" />
+        <input type="text" placeholder="username" name="username" />
+        <input type="email" placeholder="email" name="email" />
+
+        <input type="text" placeholder="street" name="street" />
+        <input type="text" placeholder="suite" name="suite" />
+        <input type="text" placeholder="city" name="city" />
+        <input type="text" placeholder="zipcode" name="zipcode" />
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+    <section>
+      <h2>READ</h2>
+      <form class="form" id="read">
+        <input type="text" placeholder="id" name="readid" />
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+    <section>
+      <h2>UPDATE</h2>
+
+      <form class="form" id="update">
+        <input type="text" placeholder="id" name="updateid" />
+        <input type="text" placeholder="name" name="2name" />
+        <input type="text" placeholder="username" name="2username" />
+        <input type="email" placeholder="email" name="2email" />
+
+        <input type="text" placeholder="street" name="2street" />
+        <input type="text" placeholder="suite" name="2suite" />
+        <input type="text" placeholder="city" name="2city" />
+        <input type="text" placeholder="zipcode" name="2zipcode" />
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+    <section>
+      <h2>DELETE</h2>
+
+      <form class="form" id="delete">
+        <input type="text" placeholder="id" name="deleteid" />
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+
+    <script type="module" src="./js/index.js"></script>
+  </body>
+</html>
